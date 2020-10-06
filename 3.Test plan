@@ -1,0 +1,8 @@
+In bank management system various operations have to be performed, these are considered as test cases and they are:
+1.Creating new account - To create a new account.
+2.Cash Deposit - To deposit amount in the account.
+3.Cash Withdrawal - To withdraw amount from the account.
+4.Display account information - It will display all informations of the existing accounts.
+5.Logout
+6.Clearing the output screen and display available options.
+
