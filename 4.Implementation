@@ -8,7 +8,7 @@ struct acc_type
 {
      char bank_name[50];
      char bank_branch[50];
-     char acc_holder_name[50];j
+     char acc_holder_name[50];
      int acc_number;
      char acc_holder_address[100];
      float available_balance;
@@ -20,7 +20,7 @@ int num_acc;
 
 void Create_new_account();
 void Cash_Deposit();
-void Cash_withdrawl();
+void Cash_withdrawal();
 void Account_information();
 void Log_out();
 void display_options();
@@ -44,7 +44,7 @@ int main()
                     break;
           case '2': Cash_Deposit();
                     break;
-          case '3': Cash_withdrawl();
+          case '3': Cash_withdrawal();
                     break;
           case '4': Account_information();
                     break;
@@ -170,7 +170,7 @@ void Cash_Deposit()
 
 // Function to withdraw amount from an account
 
-void Cash_withdrawl()
+void Cash_withdrawal()
 {
    auto int acc_no;
    float withdraw_money;
